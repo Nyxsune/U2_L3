@@ -1,0 +1,9 @@
+1. self.__turn should be updated at the end of place_token
+
+2. Chess like, a combination of a, b, or c plus 1, 2, or 3 to get the location of where the player wishes to place their token
+
+3. __check_win should be called at the end of place_token and shouldn't accept any arguments beyond self because a;; the information is in self that it needs (literally just the board)
+
+4. one function should be the player's turn and another should be the computer's turn
+
+5. go through each of the three lists of the board and see if they have the same tokens in each. Check the first, second, and third indexes of each list to see if they match. go through each list and see if index 1 of the first, 2 of second, and 3 of third (and flipped) match.
